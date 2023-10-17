@@ -35,6 +35,3 @@ def wikigeo(wikiwikiwiki: Wikiped):
     result = wikipedia.search(wikiwikiwiki.name_of_title, results=wikiwikiwiki.times)
     response = PostResponse(result=result)
     return response
-
-
-a = min(1, 2)
