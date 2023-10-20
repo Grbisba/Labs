@@ -9,7 +9,6 @@ app = FastAPI()
 class Wikiped(BaseModel):
     name_of_title: str
     times: int
-    url: str
 
 class PostResponse(BaseModel):
     result: list[str]
